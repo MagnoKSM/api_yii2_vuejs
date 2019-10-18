@@ -41,6 +41,21 @@ class News extends \yii\db\ActiveRecord
             'id' => 'ID',
             'title' => 'Title',
             'content_body' => 'Content Body',
+            'category_id' => 'Category ID'
         ];
     }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getCategory()
+    {
+        return $this->hasOne(Categorias::className(), ['id'=>'id', 'name'=>'category_name']);
+    }
+
+    public function extractFields()
+    {
+        return ['category'];
+    }
+
 }

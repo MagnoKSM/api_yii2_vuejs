@@ -16,6 +16,7 @@ class m191007_022945_create_news_table extends Migration
             'id' => $this->primaryKey(),
             'title' => $this->string('180'),
             'content_body' => $this->text(),
+            'category_id' => $this->integer()
         ]);
     }
 
