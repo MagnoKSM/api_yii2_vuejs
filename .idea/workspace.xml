@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68947d3-6806-4b38-8efb-71c21260b53c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/controllers/BaseApiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/NewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/m191007_022945_create_news_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/m191007_022945_create_news_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/News.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +21,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/controllers/NewsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/controllers/BaseApiController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/controllers/CategoryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -40,9 +57,10 @@
         <option value="$PROJECT_DIR$/api/migrations/m191007_022740_create_categorias_table.php" />
         <option value="$PROJECT_DIR$/api/config/web.php" />
         <option value="$PROJECT_DIR$/api/migrations/m191007_030526_add_categoryid_column_to_categorias_table.php" />
-        <option value="$PROJECT_DIR$/api/controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/api/models/News.php" />
         <option value="$PROJECT_DIR$/api/migrations/m191007_022945_create_news_table.php" />
+        <option value="$PROJECT_DIR$/api/controllers/BaseApiController.php" />
+        <option value="$PROJECT_DIR$/api/controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/api/controllers/NewsController.php" />
       </list>
     </option>
@@ -218,12 +236,12 @@
       <workItem from="1570412955461" duration="5074000" />
       <workItem from="1570979465017" duration="188000" />
       <workItem from="1571321477058" duration="2813000" />
-      <workItem from="1571409101124" duration="2398000" />
+      <workItem from="1571409101124" duration="2792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10639000" />
+    <option name="totallyTimeSpent" value="11033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -298,13 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/migrations/m191007_030526_add_categoryid_column_to_categorias_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
@@ -347,10 +358,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/BaseApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/controllers/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
